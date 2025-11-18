@@ -1,0 +1,11 @@
+- [x] Update index.html with modern dark theme, improved layout, icons, and professional design.
+- [x] Update login.html with consistent modern styles.
+- [x] Update register.html with consistent modern styles.
+- [x] Update static/styles.css for global modern styles.
+- [x] Test all functionalities: sensor readings, UDP messages, charts, stats, historical data, login/register.
+- [x] Change communication protocol from UDP to HTTP for Digital Ocean deployment.
+  - [x] Modify visualizacion.py: Remove UDP receiving thread and add HTTP POST endpoint to receive sensor data.
+  - [x] Modify sender.py: Change from UDP socket to HTTP POST request.
+  - [x] Update TODO.md to mark protocol change as completed.
+  - [x] Test HTTP communication locally.
+  - [x] Prepare for Digital Ocean deployment (ensure gunicorn is configured).
